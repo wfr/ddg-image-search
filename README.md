@@ -10,3 +10,8 @@ usage: duckduckgo-image-search.py [-h] [--safe-search {off,moderate,strict}]
 ```
 
 The resulting files are saved in the format `00000-URL.EXTENSION`.
+
+Requires:
+
+ * python3-pil
+ * python3-requests
