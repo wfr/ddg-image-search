@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-duckduckgo-image-search - search for images on DuckDuckGo and download them.
+ddg-image-search - search for images on DuckDuckGo and download them.
 
 Copyright (C) 2019 Wolfgang Frisch
 
