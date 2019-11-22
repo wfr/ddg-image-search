@@ -1,5 +1,5 @@
 # ddg-image-search
-A little script that searches for images on DuckDuckGo and downloads them.
+Search and download images on DuckDuckGo.
 
 ```
 usage: ddg-image-search.py [-h] [--safe-search {off,moderate,strict}]
