@@ -58,7 +58,7 @@ class DuckDuckImages():
         if type != "all":
             iaf.append("type:" + type)
         # print(",".join(iaf))
-        
+
         if safe_search == "off":
             self.s.cookies["p"] = "-2"
         elif safe_search == "moderate":
@@ -67,7 +67,6 @@ class DuckDuckImages():
         # Acquire vqd token
         headers = {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0",
-            "Accept": "application/json, text/javascript, */*; q=0.01",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.5",
             "Referer": "https://duckduckgo.com/",
@@ -111,7 +110,7 @@ class DuckDuckImages():
             # "u": "yahoo", # ???
             "vqd": vqd,
         }
-        
+
         # necessary?
         if safe_search == "off":
             params["ex"] = -2
